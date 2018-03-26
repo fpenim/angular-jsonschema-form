@@ -1,0 +1,37 @@
+[
+  "alias",
+  {
+    "title": "Taxonomy",
+    "type": "div",
+    "display": "flex",
+    "flex-direction": "row",
+    "items": [
+      {
+        "key": "taxonomy.taxonId",
+        "title": "Taxonomy ID"
+      },
+      {
+        "key": "taxonomy.taxon",
+        "title": "Scientific name"
+      }
+    ]
+  },
+  "releaseDate",
+  {
+    "key": "sampleRelationships",
+    "type": "array",
+    "items": [ {
+      "type": "div",
+        "displayFlex": true,
+        "flex-direction": "row",
+        "items": [
+          { 
+            "key": "sampleRelationships[].target",
+            "placeholder": "SAM1234"
+          },
+          { 
+            "key": "sampleRelationships[].nature"
+          }]
+      }]
+  }
+]

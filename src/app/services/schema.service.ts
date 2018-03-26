@@ -6,7 +6,7 @@ export class SchemaService {
   constructor(private http: HttpClient) {}
 
   schemaUrl = 'assets/schemas/biosamples.json';
-  layoutUrl = 'assets/layouts/form-layout.json';
+  layoutUrl = 'assets/layouts/biosamples-layout.json';
 
   getSchema() {
     const response = this.http
